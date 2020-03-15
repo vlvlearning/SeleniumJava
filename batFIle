@@ -1,0 +1,4 @@
+set path=%path%;.\sikuli-ide\libs
+javac -d bin -sourcepath src -cp .\ext\selenium-server-standalone-2.24.1.jar;.\ext\sikuli-script.jar;.\ext\itextpdf-5.2.1.jar;.\ext\16th-jan-2013-isafe.jar;.\ext\com.springsource.com.lowagie.text-2.0.8.jar;.\ext\core-renderer-R8pre2.jar;.\ext\jtidy-r872-jdk15.jar;.\ext\jxl.jar;.\ext\jtds-1.2.5.jar;.\ext\log4j-1.2.16.jar;.\ext\mail.jar .\src\iSAFE\TestDriver.java
+java -cp bin;.\ext\selenium-server-standalone-2.24.1.jar;.\ext\itextpdf-5.2.1.jar;.\ext\16th-jan-2013-isafe.jar;.\ext\sikuli-script.jar;.\ext\com.springsource.com.lowagie.text-2.0.8.jar;.\ext\core-renderer-R8pre2.jar;.\ext\jtidy-r872-jdk15.jar;.\ext\jxl.jar;.\ext\jtds-1.2.5.jar;.\ext\log4j-1.2.16.jar;.\ext\mail.jar iSAFE.TestDriver
+
